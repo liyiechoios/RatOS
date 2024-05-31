@@ -22,9 +22,10 @@ buildtest:
   # Orange Pi OS based images
   # - orangepi/orangepi_zero2
   # Raspberry Pi OS based images
-  - raspberry/rpi32
+  # - raspberry/rpi32
   # - raspberry/rpi64
-  - armbian/CB1
+  # - armbian/CB1
+  - armbian/msm8916
 
 # This is used to setup release build chain.
 # Each entry will be used in setup matrix for releases
@@ -36,6 +37,7 @@ release:
   # Orange Pi OS based images
   # - orangepi/orangepi_zero2
   # Raspberry Pi OS based images
-  - raspberry/rpi32
+  # - raspberry/rpi32
   # - raspberry/rpi64
-  - armbian/CB1
+  # - armbian/CB1
+  - armbian/msm8916
