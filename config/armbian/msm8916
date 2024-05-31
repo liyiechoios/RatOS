@@ -20,4 +20,4 @@ export BASE_IMAGE_RESIZEROOT
 export DOWNLOAD_URL_CHECKSUM
 export DOWNLOAD_URL_IMAGE
 
-export MODULES="base,pkgupgrade,udev_fix,armbian(armbian_net,mainsailos,klipper,node,is_req_preinstall,moonraker,mainsail,crowsnest,ratos(linear_movement_analysis,timelapse,klipperscreen,rpi_mcu,disable-services(hotspot),dfu-util))"
+export MODULES="base,deb_namserver,passwordless_sudo,pkgupgrade(network,klipper,node,is_req_preinstall,moonraker,ratos(mainsail,crowsnest,linear_movement_analysis,timelapse,klipperscreen,dfu-util),password-for-sudo),postrename"
